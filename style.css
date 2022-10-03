@@ -1,6 +1,6 @@
 @font-face{
     font-family: "Karla";
-    src: url(/font/Karla-Regular.ttf);
+    src: url(font/Karla-Regular.ttf);
 }
 *{
     margin: 0;
@@ -35,9 +35,23 @@ main img{
     width: 400px;
     
 }
-.my-img, .my-text{      
+.my-img{      
     width: 45%;
     margin: 0 20px
+
+}
+.my-img img{      
+   box-shadow: 0 3px 10px 1px rgb(134, 134, 134);
+
+}
+.my-text p{      
+    text-align: justify;
+
+}
+
+.my-text{      
+    width: 40%;
+    padding: 0 80px
 
 }
 p, .para{
